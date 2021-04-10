@@ -1,0 +1,7 @@
+{
+  "name": "ionic-react-instagram-clone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
