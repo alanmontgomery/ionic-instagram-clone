@@ -1,0 +1,98 @@
+$border: linear-gradient(to bottom, #d82b7e, #f57939);
+
+.stories {
+
+    height: fit-content;
+    margin-top: -0.7rem;
+}
+
+.storiesContainer {
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.storiesContainer::-webkit-scrollbar {
+
+    display: none;
+}
+
+.story,
+.yourStory {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 4rem !important;
+    margin-left: 1rem;
+}
+
+.story:first-child,
+.yourStory:first-child {
+
+    margin-left: 0.75rem;
+}
+
+.story p,
+.yourStory p {
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.2rem;
+    color: rgb(95, 95, 95);
+    font-size: 0.7rem;
+    font-weight: 400;
+    width: 120%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.story img,
+.yourStory img {
+
+    height: 3.5rem !important;
+    width: 3.5rem !important;
+    position: absolute;
+    border-radius: 500px;
+    background: $border;
+    padding: 0.1rem;
+}
+
+.yourStory img {
+
+    background:rgb(214, 214, 214);
+}
+
+.storyAdd {
+
+    position: absolute;
+    color: white;
+    background-color: var(--ion-color-primary);
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 500px;
+    border: 2px solid white;
+
+    bottom: 20px;
+    right: 0;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}

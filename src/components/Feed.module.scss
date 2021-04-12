@@ -1,0 +1,221 @@
+.postsContainer {
+
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.postContainer {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.postProfile {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.postProfile ion-router-link {
+
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.postProfileInfo ion-avatar {
+
+    height: 2.2rem;
+    width: 2.2rem;
+}
+
+.postProfileInfo p {
+
+    margin: 0;
+    padding: 0;
+    margin-left: 0.5rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.postProfileInfo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.postImage {
+
+    border-top: 1px solid rgb(216, 216, 216);
+    margin-top: 0.5rem;
+    height: 20rem;
+    width: 100%;
+}
+
+.postImageLike {
+
+    font-size: 10rem;
+    color: rgb(231, 231, 231);
+    position: absolute;
+    left: 32vmin;
+    margin-top: 20vmin;
+    display: none;
+}
+
+.postActionsContainer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.postActions {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.postActions ion-icon,
+.postBookmark ion-icon {
+
+    font-size: 1.5rem;
+}
+
+.postActions ion-icon:not(:first-child) {
+
+    padding-left: 0.7rem;
+}
+
+.postLikesContainer {
+
+    padding-left: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.postLikesContainer p {
+
+    margin: 0;
+    padding: 0;
+    font-weight: 200 !important;
+    font-size: 0.8rem;
+}
+
+.postLikedName {
+
+    font-weight: 600;
+}
+
+.postCaption {
+
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-top: 0.3rem;
+}
+
+.postCaption p {
+
+    margin: 0;
+    padding: 0;
+    font-weight: 200 !important;
+    font-size: 0.8rem;
+}
+
+.postName {
+
+    color: black !important;
+    font-weight: 600 !important;
+}
+
+.postName ion-router-link {
+
+    color: black;
+}
+
+.postComments {
+
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.postComments p {
+
+    margin: 0;
+    padding: 0;
+    color:rgb(175, 175, 175);
+    font-size: 0.8rem;
+}
+
+.postAddComment {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.postAddCommentProfile {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.postAddCommentProfile ion-avatar {
+
+    height: 1.9rem;
+    width: 1.9rem;
+}
+
+.postAddCommentProfile p {
+
+    padding-left: 0.75rem;
+    font-size: 0.8rem;
+    color: rgb(175, 175, 175);
+}
+
+.postAddCommentActions {
+
+
+}
+
+.postAddCommentActions ion-icon {
+
+    padding-left: 0.5rem;
+}
+
+.postTime {
+
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-top: 0rem;
+}
+
+.postTime p {
+
+    margin: 0;
+    padding: 0;
+    color: rgb(175, 175, 175);
+    font-size: 0.6rem;
+}
